@@ -6,8 +6,6 @@ resource "aws_vpc" "my_vpc" {
   }
 }
 
-data "aws_caller_identity" "current" {
-}
 
 resource "aws_subnet" "public_subnet" {
   count             = var.subnet_count

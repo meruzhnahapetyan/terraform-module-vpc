@@ -9,5 +9,6 @@ variable "public_subnet_cidr_blocks" {}
 
 variable "private_subnet_cidr_blocks" {}
 
-data "aws_caller_identity" "current" {}
+data "aws_caller_identity" "current" {
+}
 
